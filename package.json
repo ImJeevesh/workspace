@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "start": "npx nx serve web --verbose",
+    "start": "nx serve web-platform --devRemotes=web-remote",
     "start-fix-it": "nx run-many --parallel --target=serve --projects=web,web-remote --verbose",
     "build": "nx run-many -t build -p * --parallel=5",
     "lint": "nx run-many -t lint -p * --parallel=5",

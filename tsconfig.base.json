@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@workspace/components": ["libs/components/src/index.ts"]
+      "@workspace/components": ["libs/components/src/index.ts"],
+      "@workspace/web-context": ["libs/web-context/src/index.ts"],
+      "web-remote/Module": ["apps/web-remote/src/remote-entry.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

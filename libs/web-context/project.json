@@ -1,0 +1,9 @@
+{
+  "name": "web-context",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/web-context/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project web-context --web",
+  "targets": {}
+}
